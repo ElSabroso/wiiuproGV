@@ -1,5 +1,5 @@
-.controller {
-	background: url('wiiupro.png');
+.controller.custom {
+	background: url(wiiupro.png);
 	height: 630px;
 	width: 750px;
 	margin-left: -375px;
@@ -10,14 +10,14 @@
 
 .stick {
 	position: absolute;
-	background: url('stick.png') repeat scroll -83px 0px transparent;
+	background: url(stick.png) repeat scroll -83px 0px transparent;
 	height: 83px;
 	width: 82px;
 	background-size: cover;
 }
 
 .stick.pressed {
-	background: url('stick.png') repeat scroll 0px 0px transparent;
+	background: url(stick.png) repeat scroll 0px 0px transparent;
 	background-size: cover;
 }
 
