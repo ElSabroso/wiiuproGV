@@ -1,5 +1,5 @@
-.controller.custom {
-	background: url(wiiupro.png);
+.controller.custom{
+	background: url(img/wiiupro.png);
 	height: 630px;
 	width: 750px;
 	margin-left: -375px;
@@ -10,14 +10,14 @@
 
 .stick {
 	position: absolute;
-	background: url(stick.png) repeat scroll -83px 0px transparent;
+	background: url(img/stick.png) repeat scroll -83px 0px transparent;
 	height: 83px;
 	width: 82px;
 	background-size: cover;
 }
 
 .stick.pressed {
-	background: url(stick.png) repeat scroll 0px 0px transparent;
+	background: url(img/stick.png) repeat scroll 0px 0px transparent;
 	background-size: cover;
 }
 
@@ -41,7 +41,7 @@
 
 .button{
     position: absolute;
-    background: url(abxy.png);
+    background: url(img/abxy.png);
     width: 48px;
     height: 47px;
     background-size: 400%;
@@ -82,7 +82,7 @@
     left: 179px;
 }
 .face{
-    background: url(dpad.png);
+    background: url(img/dpad.png);
     position: absolute;
     opacity: 0;
 }
@@ -136,10 +136,10 @@
     background-repeat: no-repeat;
 }
 .trigger.left{
-	background-image: url(zl.png);
+	background-image: url(img/zl.png);
 }
 .trigger.right{
-	background-image: url(zr.png);
+	background-image: url(img/zr.png);
 	right:0px;
 }
 
@@ -162,7 +162,7 @@
     opacity: 1;
 }
 .bumper.left{
-    background-image: url(l.png);
+    background-image: url(img/l.png);
 }
 .bumper.right{
     background-image: url(r.png);
@@ -177,7 +177,7 @@
     left: 298px;
 }
 .back, .start{
-    background: url(plusminus.png);
+    background: url(img/plusminus.png);
     width: 30px;
     height: 30px;
     opacity: 0;
